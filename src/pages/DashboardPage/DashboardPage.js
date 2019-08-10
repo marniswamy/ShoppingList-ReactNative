@@ -1,6 +1,7 @@
-import React, { Component } from "react";
-import { Text, View } from "react-native";
+import React from "react";
+import { View } from "react-native";
 import { NavigationBar } from "../../components/NavigationBar/NavigationBar";
+import { MarketsList } from "../../components/MarketsList/MarketsList";
 
 /**
  * A description explaining what we use this component for
@@ -10,7 +11,6 @@ import { NavigationBar } from "../../components/NavigationBar/NavigationBar";
 export const DashboardPage = () => (
   <View>
     <NavigationBar />
-    <Text>DashboardPage b Marni</Text>
+    <MarketsList />
   </View>
 );
-
